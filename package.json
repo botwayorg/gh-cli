@@ -1,0 +1,29 @@
+{
+  "name": "@botway/gh-cli",
+  "version": "0.0.1",
+  "description": "GitHub’s official command line tool",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/cli/cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cli/cli.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "postinstall": "node ./install.js"
+  },
+  "bin": {
+    "gh": "bin/gh.js"
+  },
+  "files": [
+    "README.md"
+  ],
+  "dependencies": {
+    "@napi-rs/triples": "^1.1.0",
+    "node-fetch": "^3.1.0",
+    "tar": "^6.1.11"
+  }
+}
