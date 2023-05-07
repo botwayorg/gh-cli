@@ -1,5 +1,5 @@
 {
-  "name": "@botway/gh",
+  "name": "gh-cmd",
   "version": "0.0.1",
   "description": "GitHub’s official command line tool",
   "type": "module",
