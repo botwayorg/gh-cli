@@ -1,6 +1,6 @@
 {
   "name": "gh-cmd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GitHub’s official command line tool",
   "type": "module",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "gh": "bin/gh.js"
   },
   "files": [
+    "bin",
+    "config.js",
+    "install.js",
     "README.md"
   ],
   "dependencies": {
