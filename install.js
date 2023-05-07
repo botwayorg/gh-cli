@@ -1,4 +1,4 @@
-import { createWriteStream, existsSync } from "fs";
+import { createWriteStream } from "fs";
 import * as fs from "fs/promises";
 import fetch from "node-fetch";
 import { pipeline } from "stream/promises";
