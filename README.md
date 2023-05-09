@@ -4,11 +4,11 @@
 
 ```bash
 # npm
-npm i -g @botway/gh
+npm i -g gh-cmd
 
 # yarn
-yarn global add @botway/gh
+yarn global add gh-cmd
 
 # pnpm
-pnpm add -g @botway/gh
+pnpm add -g gh-cmd
 ```
